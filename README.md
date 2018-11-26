@@ -172,7 +172,7 @@ Moreover, the application secret (`RP_APPLICATION_SECRET`) is set to dummy value
 
 Follow [these instructions](https://www.lightbend.com/product/lightbend-reactive-platform/credentials) to set up your Bintray credentials for Maven.
 
-## Testing the recipe
+## Running Cinnamon locally
 
 Lagom has a special development mode for rapid development, and does not fork the JVM when using the `lagom:runAll` or `lagom:run` commands in Maven. A forked JVM is necessary to gain metrics for actors and HTTP calls, since those are provided by the Cinnamon Java Agent. This example uses the [`exec-maven-plugin`](https://www.mojohaus.org/exec-maven-plugin/) to run the Lagom production server, enabling the complete set of metrics to be displayed.
 
